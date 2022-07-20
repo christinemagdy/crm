@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
+    <PackageReference Include="Mail.dll" Version="3.0.22105.1207" />
+    <PackageReference Include="MailKit" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bebrand.Domain\Bebrand.Domain.csproj" />
+    <ProjectReference Include="..\Bebrand.Infra.CrossCutting.Identity\Bebrand.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\Bebrand.Infra.Data\Bebrand.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

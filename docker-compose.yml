@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  bebrand.services.api:
+    image: ${DOCKER_REGISTRY-}bebrandservicesapi
+    build:
+      context: .
+      dockerfile: Bebrand.Services.Api/Dockerfile
